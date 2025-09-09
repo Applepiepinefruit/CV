@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mike Ibrahim — CV</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Mike Ibrahim</h1>
+      <p class="tagline">Software Engineer · AI enthusiast · Problem solver</p>
+      <p class="contact">📧 mike@example.com • 📱 +91-98xxxxxxx • GitHub: <a href="https://github.com/your-username">your-username</a></p>
+    </header>
+
+    <section class="summary">
+      <h2>Professional Summary</h2>
+      <p>Practical description: 1–2 short lines about you — your focus, years experience, and what you bring.</p>
+    </section>
+
+    <section class="experience">
+      <h2>Experience</h2>
+      <article>
+        <h3>Role — Company</h3>
+        <p class="meta">Jan 2023 — Present</p>
+        <ul>
+          <li>Highlight #1 — short achievement with metrics where possible.</li>
+          <li>Highlight #2 — technical stack or outcome.</li>
+        </ul>
+      </article>
+      <!-- repeat as needed -->
+    </section>
+
+    <section class="education">
+      <h2>Education</h2>
+      <p>Bachelor of Engineering, Computer Science — University Name (Year)</p>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <p>Languages: JavaScript, Python, C++ • Tools: Git, Docker, Linux • Interests: ML, systems</p>
+    </section>
+
+    <footer>
+      <p>Last updated: <span id="updated"></span></p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('updated').textContent = new Date().toLocaleDateString();
+  </script>
+</body>
+</html>
